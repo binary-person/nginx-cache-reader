@@ -1,6 +1,6 @@
 {
   "name": "nginx-cache-reader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "parses nginx's cache folder and files",
   "main": "index.js",
   "scripts": {
