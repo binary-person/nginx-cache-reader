@@ -1,0 +1,43 @@
+{
+  "name": "nginx-cache-reader",
+  "version": "0.0.1",
+  "description": "parses nginx's cache folder and files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binary-person/nginx-cache-reader.git"
+  },
+  "keywords": [
+    "nginx",
+    "nodejs",
+    "cli"
+  ],
+  "author": "Simon Cheng <simoncheng559@gmail.com> (https://github.com/binary-person)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binary-person/nginx-cache-reader/issues"
+  },
+  "homepage": "https://github.com/binary-person/nginx-cache-reader#readme",
+  "dependencies": {
+    "assert-dir-equal": "^1.1.0",
+    "commander": "^6.2.1",
+    "human-elapsed": "^1.0.3",
+    "json2csv": "^5.0.5",
+    "parse-headers": "^2.0.3",
+    "pretty-bytes": "^5.5.0",
+    "rmdir-recursive": "0.0.1",
+    "stream-equal": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "bin": {
+    "nginx-cache-reader": "bin/nginx-cache-reader.js"
+  },
+  "engines": {
+    "node": ">=12.x.x"
+  }
+}
