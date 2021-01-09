@@ -1,8 +1,9 @@
 nginx-cache-reader
 ==================
 
+[![Build Status](https://travis-ci.com/binary-person/nginx-cache-reader.svg?branch=master)](https://travis-ci.com/github/binary-person/nginx-cache-reader)
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
-![Node](https://img.shields.io/badge/node->=12.x.x-blue.svg?cacheSeconds=2592000)
+![Minimum node version](https://img.shields.io/badge/node->=12.x.x-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/github/license/binary-person/nginx-cache-reader)](https://github.com/binary-person/nginx-cache-reader/blob/master/LICENSE)
 
 > parses nginx's cache folder and files
