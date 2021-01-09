@@ -13,6 +13,14 @@ describe('Nginx Cache Reader Cli', function () {
             let result = await cli.asyncSpawn(cli.readfolder.cliArguments);
             cli.readfolder.validateResponse(result);
         });
+        it('reads folder and prints to stdout with plaintop format option correctly', async function(){
+            let result = await cli.asyncSpawn(cli.readfolder.cliArguments.concat(['-f', 'plaintop']));
+            cli.readfolder.validateResponse(result);
+        });
+        it('reads folder and prints to stdout with plainbottom format option correctly', async function(){
+            let result = await cli.asyncSpawn(cli.readfolder.cliArguments.concat(['-f', 'plainbottom']));
+            cli.readfolder.validateResponse(result);
+        });
     });
     describe('readfile command', function(){
         it('reads file and prints to stdout correctly', async function(){
