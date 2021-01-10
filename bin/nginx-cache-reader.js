@@ -28,7 +28,7 @@ program
 program
     .command('readfile <nginxcachefile>')
     .description('Displays cache file info')
-    .option('-f, --format <format>', readFile.getFormats(), readFolder.getFormatDefault())
+    .option('-f, --format <format>', readFile.getFormats(), readFile.getFormatDefault())
     .option('-o, --output <file>', 'Prints to stdout if unspecified')
     .action(readFile.action);
 program
