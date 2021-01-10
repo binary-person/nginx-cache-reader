@@ -31,7 +31,7 @@ exports.testCacheFileParsed = {
     relativePath: testCacheFileInfoRelativePath,
     absolutePath: getAbsolutePath(testCacheFileInfoRelativePath),
     size: 904,
-    ctime: testCacheFileInfo.ctime,
+    birthtime: testCacheFileInfo.birthtime,
     mtime: testCacheFileInfo.mtime,
     atime: testCacheFileInfo.atime
 };

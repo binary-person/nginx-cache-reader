@@ -77,8 +77,8 @@ returns `Promise<nginxCacheReader.nginxCacheFile>`
     relativePath, // relative path of process.cwd(). example: path_to_cachefile
     absolutePath, // absolute path. example: /path/to/cachefile
     size, // size of cache file
-    ctime, // taken directly from fs.statSync(cacheFile)
-    mtime, // same as above
+    birthtime, // time of birth. taken directly from fs.statSync(cacheFile)
+    mtime, // last modified time. same as above
     atime // same as above
 }
 ```
